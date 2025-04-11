@@ -8,8 +8,8 @@ COPY ./portfolio /usr/share/nginx/html
 #COPY ./nginx.conf /etc/nginx/nginx.conf
 #COPY ./ssl /etc/nginx/ssl
 
-# Expose port 80 for HTTP traffic and port 443 for HTTPS traffic
-EXPOSE 80 #443
+# Expose port 80 for HTTP traffic
+EXPOSE 80
 
 # Start NGINX in foreground mode
 CMD ["nginx", "-g", "daemon off;"]
