@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mith & Tolex | Portfolio</title>
+        <meta
+            name="description"
+            content="Professional portfolio of Mith & Tolex, Web Developer"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/animations.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <!-- Header/Navigation -->
+        <header class="header">
+            <div class="container">
+                <a href="#" class="logo">MT</a>
+
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="vn">VN</button>
+                </div>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li>
+                            <a
+                                href="#home"
+                                class="nav-link active"
+                                data-translate="nav_home"
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#about"
+                                class="nav-link"
+                                data-translate="nav_about"
+                                >About</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#skills"
+                                class="nav-link"
+                                data-translate="nav_skills"
+                                >Skills</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#projects"
+                                class="nav-link"
+                                data-translate="nav_projects"
+                                >Projects</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#contact"
+                                class="nav-link"
+                                data-translate="nav_contact"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                    <button class="hamburger" aria-label="Toggle menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title fade-in" data-translate="hero_title">
+                        Hi, We're <span>Mith & Tolex</span>
+                    </h1>
+                    <h2
+                        class="hero-subtitle fade-in"
+                        data-translate="hero_subtitle"
+                    >
+                        Frontend Developer
+                    </h2>
+                    <p class="hero-text fade-in" data-translate="hero_text">
+                        We create beautiful, responsive websites with modern
+                        technologies
+                    </p>
+                    <div class="hero-buttons fade-in">
+                        <a
+                            href="#projects"
+                            class="btn btn-primary"
+                            data-translate="view_work"
+                            >View Our Work</a
+                        >
+                        <a
+                            href="#contact"
+                            class="btn btn-secondary"
+                            data-translate="contact_us"
+                            >Contact Us</a
+                        >
+                    </div>
+                </div>
+                <div class="hero-image slide-in">
+                    <img
+                        src="images/profile.png"
+                        alt="Mith & Tolex"
+                        width="400"
+                        height="400"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title" data-translate="about_title">
+                    About Us
+                </h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img
+                            src="images/profile.png"
+                            alt="Mith & Tolex"
+                            width="300"
+                            height="300"
+                        />
+                    </div>
+                    <div class="about-text">
+                        <p data-translate="about_text1">
+                            We're a passionate frontend developer with 5 years
+                            of experience creating modern web applications. I
+                            specialize in responsive design, performance
+                            optimization, and creating intuitive user
+                            experiences.
+                        </p>
+                        <p data-translate="about_text2">
+                            When We're not coding, you can find us hiking,
+                            reading sci-fi novels, or experimenting with new
+                            recipes in the kitchen.
+                        </p>
+                        <div class="about-info">
+                            <div class="info-item">
+                                <h3 data-translate="name_label">Name:</h3>
+                                <p>Mith & Tolex</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 data-translate="email_label">Email:</h3>
+                                <p>portfolio@demo.com</p>
+                            </div>
+                            <div class="info-item">
+                                <h3 data-translate="from_label">From:</h3>
+                                <p>Hồ Chí Minh, Bình Thạnh</p>
+                            </div>
+                        </div>
+                        <a
+                            href="#"
+                            class="btn btn-primary"
+                            data-translate="download_cv"
+                            >Download CV</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title" data-translate="skills_title">
+                    Our Skills
+                </h2>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p data-translate="html_skill">
+                            Semantic markup, accessibility, SEO optimization
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p data-translate="css_skill">
+                            Flexbox, Grid, animations, responsive design
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p data-translate="js_skill">
+                            ES6+, DOM manipulation, async programming
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>React</h3>
+                        <p data-translate="react_skill">
+                            Components, hooks, context API
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 data-translate="responsive_title">
+                            Responsive Design
+                        </h3>
+                        <p data-translate="responsive_skill">
+                            Mobile-first approach, media queries
+                        </p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 data-translate="performance_title">Performance</h3>
+                        <p data-translate="performance_skill">
+                            Optimization, lazy loading, caching
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title" data-translate="projects_title">
+                    Our Projects
+                </h2>
+                <div class="projects-filter">
+                    <button
+                        class="filter-btn active"
+                        data-filter="all"
+                        data-translate="filter_all"
+                    >
+                        All
+                    </button>
+                    <button
+                        class="filter-btn"
+                        data-filter="web"
+                        data-translate="filter_web"
+                    >
+                        Web
+                    </button>
+                    <button
+                        class="filter-btn"
+                        data-filter="app"
+                        data-translate="filter_app"
+                    >
+                        App
+                    </button>
+                    <button
+                        class="filter-btn"
+                        data-filter="design"
+                        data-translate="filter_design"
+                    >
+                        Design
+                    </button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <img
+                            src="images/projects/ecommerce.png"
+                            alt="E-commerce Website"
+                        />
+                        <div class="project-overlay">
+                            <h3 data-translate="project1_title">
+                                E-commerce Website
+                            </h3>
+                            <p data-translate="project1_tech">
+                                React, Node.js, MongoDB
+                            </p>
+                            <a
+                                href="#"
+                                class="btn btn-primary"
+                                data-translate="view_project"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="app">
+                        <img
+                            src="images/projects/task.png"
+                            alt="Task Management App"
+                        />
+                        <div class="project-overlay">
+                            <h3 data-translate="project2_title">
+                                Task Management App
+                            </h3>
+                            <p data-translate="project2_tech">
+                                React Native, Firebase
+                            </p>
+                            <a
+                                href="#"
+                                class="btn btn-primary"
+                                data-translate="view_project"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="design">
+                        <img
+                            src="images/projects/uiux.png"
+                            alt="UI/UX Design"
+                        />
+                        <div class="project-overlay">
+                            <h3 data-translate="project3_title">
+                                UI/UX Design
+                            </h3>
+                            <p data-translate="project3_tech">
+                                Figma, Adobe XD
+                            </p>
+                            <a
+                                href="#"
+                                class="btn btn-primary"
+                                data-translate="view_project"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <img
+                            src="images/projects/portfolio.png"
+                            alt="Portfolio Website"
+                        />
+                        <div class="project-overlay">
+                            <h3 data-translate="project4_title">
+                                Portfolio Website
+                            </h3>
+                            <p data-translate="project4_tech">
+                                HTML, CSS, JavaScript
+                            </p>
+                            <a
+                                href="#"
+                                class="btn btn-primary"
+                                data-translate="view_project"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="app">
+                        <img
+                            src="images/projects/weather.png"
+                            alt="Weather App"
+                        />
+                        <div class="project-overlay">
+                            <h3 data-translate="project5_title">Weather App</h3>
+                            <p data-translate="project5_tech">
+                                React, Weather API
+                            </p>
+                            <a
+                                href="#"
+                                class="btn btn-primary"
+                                data-translate="view_project"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <img
+                            src="images/projects/blog.png"
+                            alt="Blog Platform"
+                        />
+                        <div class="project-overlay">
+                            <h3 data-translate="project6_title">
+                                Blog Platform
+                            </h3>
+                            <p data-translate="project6_tech">WordPress, PHP</p>
+                            <a
+                                href="#"
+                                class="btn btn-primary"
+                                data-translate="view_project"
+                                >View Project</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title" data-translate="contact_title">
+                    Get In Touch
+                </h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h3 data-translate="contact_email">Email</h3>
+                            <p>portfolio@demo.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <h3 data-translate="contact_phone">Phone</h3>
+                            <p>+84 03551234567</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3 data-translate="contact_location">Location</h3>
+                            <p>Hồ Chí Minh, Bình Thạnh, Vietnam</p>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your Name"
+                                required
+                                data-translate="form_name"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Your Email"
+                                required
+                                data-translate="form_email"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="Subject"
+                                data-translate="form_subject"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <textarea
+                                id="message"
+                                name="message"
+                                placeholder="Your Message"
+                                required
+                                data-translate="form_message"
+                            ></textarea>
+                        </div>
+                        <button
+                            type="submit"
+                            class="btn btn-primary"
+                            data-translate="send_message"
+                        >
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-about">
+                        <h3>Mith & Tolex</h3>
+                        <p data-translate="footer_about">
+                            Frontend Developer creating modern, responsive
+                            websites with a focus on user experience.
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <h3 data-translate="footer_links">Quick Links</h3>
+                        <ul>
+                            <li>
+                                <a href="#home" data-translate="nav_home"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#about" data-translate="nav_about"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#skills" data-translate="nav_skills"
+                                    >Skills</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#projects"
+                                    data-translate="nav_projects"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#contact" data-translate="nav_contact"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3 data-translate="footer_social">Connect With Us</h3>
+                        <div class="social-links">
+                            <a
+                                href="https://github.com/SixZack15/docker-portfolio"
+                                ><i class="fab fa-github"></i
+                            ></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        &copy; <span id="year"></span> Mith & Tolex.
+                        <span data-translate="footer_rights"
+                            >All rights reserved.</span
+                        >
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to Top Button -->
+        <a href="#home" class="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
